@@ -1,0 +1,61 @@
+.navbar{
+    padding: 20px;
+    background-color: black;  
+}
+
+.navbar .logo{
+    color: white;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.col{
+    margin:15px;
+    border: 1px solid rgb(70, 69, 69);
+    border-radius:2px;
+    box-shadow: 0 1px;
+    padding: 10px;
+    
+}
+
+.card img{
+    width: 200px;
+}
+
+.pagination{
+    margin-left: 700px;
+    padding-top: 20px;
+}
+
+.pagination .previous{
+    margin-right:10px;
+    padding: 5px;
+    border-radius: 4px;
+    color: black;
+    background-color: #cccc;
+    font-size:15px;
+    font-weight:200;
+    cursor: pointer;
+}
+
+.pagination .next{
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 4px;
+    color: black;
+    background-color: #cccc;
+    font-size:15px;
+    font-weight:200;
+    cursor: pointer;
+}
